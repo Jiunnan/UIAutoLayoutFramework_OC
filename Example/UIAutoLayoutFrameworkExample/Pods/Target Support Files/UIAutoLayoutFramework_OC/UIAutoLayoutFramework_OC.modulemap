@@ -1,0 +1,6 @@
+framework module UIAutoLayoutFramework_OC {
+  umbrella header "UIAutoLayoutFramework_OC-umbrella.h"
+
+  export *
+  module * { export * }
+}

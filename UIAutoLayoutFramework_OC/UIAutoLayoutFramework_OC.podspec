@@ -10,6 +10,6 @@ Pod::Spec.new do |spec|
   spec.author             = { "林俊男" => "john74111@gmail.com" }
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => "https://github.com/Jiunnan/UIAutoLayoutFramework_OC.git", :tag => spec.version.to_s }
-  spec.source_files  = "UIAutoLayoutFramework_OC/**/*.{h,m}"
+  spec.source_files  = "UIAutoLayoutFramework_OC/**/*.[h,m]"
   spec.swift_versions = "5.0"
 end
