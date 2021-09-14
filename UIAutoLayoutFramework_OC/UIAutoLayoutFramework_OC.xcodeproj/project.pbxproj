@@ -7,114 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D06B85F26E9B019004A1587 /* UIAutoLayoutFramework_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D06B85526E9B019004A1587 /* UIAutoLayoutFramework_OC.framework */; };
-		4D06B86426E9B019004A1587 /* UIAutoLayoutFramework_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D06B86326E9B019004A1587 /* UIAutoLayoutFramework_OCTests.m */; };
-		4D06B86626E9B019004A1587 /* UIAutoLayoutFramework_OC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D06B85826E9B019004A1587 /* UIAutoLayoutFramework_OC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D06B87126E9B0D7004A1587 /* UIAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D06B86F26E9B0D7004A1587 /* UIAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D06B87226E9B0D7004A1587 /* UIAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D06B87026E9B0D7004A1587 /* UIAutoLayout.m */; };
+		4DD3348E26F0432C0028D3CC /* UIAutoLayoutFramework_OC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD3348C26F0432C0028D3CC /* UIAutoLayoutFramework_OC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DD3349626F0435E0028D3CC /* UIAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD3349426F0435E0028D3CC /* UIAutoLayout.h */; };
+		4DD3349726F0435E0028D3CC /* UIAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD3349526F0435E0028D3CC /* UIAutoLayout.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4D06B86026E9B019004A1587 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4D06B84C26E9B018004A1587 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D06B85426E9B019004A1587;
-			remoteInfo = UIAutoLayoutFramework_OC;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		4D06B85526E9B019004A1587 /* UIAutoLayoutFramework_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIAutoLayoutFramework_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D06B85826E9B019004A1587 /* UIAutoLayoutFramework_OC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAutoLayoutFramework_OC.h; sourceTree = "<group>"; };
-		4D06B85926E9B019004A1587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D06B85E26E9B019004A1587 /* UIAutoLayoutFramework_OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIAutoLayoutFramework_OCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D06B86326E9B019004A1587 /* UIAutoLayoutFramework_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAutoLayoutFramework_OCTests.m; sourceTree = "<group>"; };
-		4D06B86526E9B019004A1587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D06B86F26E9B0D7004A1587 /* UIAutoLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAutoLayout.h; sourceTree = "<group>"; };
-		4D06B87026E9B0D7004A1587 /* UIAutoLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAutoLayout.m; sourceTree = "<group>"; };
+		4DD3348926F0432C0028D3CC /* UIAutoLayoutFramework_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIAutoLayoutFramework_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD3348C26F0432C0028D3CC /* UIAutoLayoutFramework_OC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAutoLayoutFramework_OC.h; sourceTree = "<group>"; };
+		4DD3348D26F0432C0028D3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD3349426F0435E0028D3CC /* UIAutoLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAutoLayout.h; sourceTree = "<group>"; };
+		4DD3349526F0435E0028D3CC /* UIAutoLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAutoLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4D06B85226E9B019004A1587 /* Frameworks */ = {
+		4DD3348626F0432C0028D3CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D06B85B26E9B019004A1587 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D06B85F26E9B019004A1587 /* UIAutoLayoutFramework_OC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D06B84B26E9B018004A1587 = {
+		4DD3347F26F0432C0028D3CC = {
 			isa = PBXGroup;
 			children = (
-				4D06B85726E9B019004A1587 /* UIAutoLayoutFramework_OC */,
-				4D06B86226E9B019004A1587 /* UIAutoLayoutFramework_OCTests */,
-				4D06B85626E9B019004A1587 /* Products */,
+				4DD3348B26F0432C0028D3CC /* UIAutoLayoutFramework_OC */,
+				4DD3348A26F0432C0028D3CC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4D06B85626E9B019004A1587 /* Products */ = {
+		4DD3348A26F0432C0028D3CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D06B85526E9B019004A1587 /* UIAutoLayoutFramework_OC.framework */,
-				4D06B85E26E9B019004A1587 /* UIAutoLayoutFramework_OCTests.xctest */,
+				4DD3348926F0432C0028D3CC /* UIAutoLayoutFramework_OC.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D06B85726E9B019004A1587 /* UIAutoLayoutFramework_OC */ = {
+		4DD3348B26F0432C0028D3CC /* UIAutoLayoutFramework_OC */ = {
 			isa = PBXGroup;
 			children = (
-				4D06B85826E9B019004A1587 /* UIAutoLayoutFramework_OC.h */,
-				4D06B86F26E9B0D7004A1587 /* UIAutoLayout.h */,
-				4D06B87026E9B0D7004A1587 /* UIAutoLayout.m */,
-				4D06B85926E9B019004A1587 /* Info.plist */,
+				4DD3348C26F0432C0028D3CC /* UIAutoLayoutFramework_OC.h */,
+				4DD3349426F0435E0028D3CC /* UIAutoLayout.h */,
+				4DD3349526F0435E0028D3CC /* UIAutoLayout.m */,
+				4DD3348D26F0432C0028D3CC /* Info.plist */,
 			);
 			path = UIAutoLayoutFramework_OC;
-			sourceTree = "<group>";
-		};
-		4D06B86226E9B019004A1587 /* UIAutoLayoutFramework_OCTests */ = {
-			isa = PBXGroup;
-			children = (
-				4D06B86326E9B019004A1587 /* UIAutoLayoutFramework_OCTests.m */,
-				4D06B86526E9B019004A1587 /* Info.plist */,
-			);
-			path = UIAutoLayoutFramework_OCTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4D06B85026E9B019004A1587 /* Headers */ = {
+		4DD3348426F0432C0028D3CC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D06B86626E9B019004A1587 /* UIAutoLayoutFramework_OC.h in Headers */,
-				4D06B87126E9B0D7004A1587 /* UIAutoLayout.h in Headers */,
+				4DD3348E26F0432C0028D3CC /* UIAutoLayoutFramework_OC.h in Headers */,
+				4DD3349626F0435E0028D3CC /* UIAutoLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4D06B85426E9B019004A1587 /* UIAutoLayoutFramework_OC */ = {
+		4DD3348826F0432C0028D3CC /* UIAutoLayoutFramework_OC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D06B86926E9B019004A1587 /* Build configuration list for PBXNativeTarget "UIAutoLayoutFramework_OC" */;
+			buildConfigurationList = 4DD3349126F0432C0028D3CC /* Build configuration list for PBXNativeTarget "UIAutoLayoutFramework_OC" */;
 			buildPhases = (
-				4D06B85026E9B019004A1587 /* Headers */,
-				4D06B85126E9B019004A1587 /* Sources */,
-				4D06B85226E9B019004A1587 /* Frameworks */,
-				4D06B85326E9B019004A1587 /* Resources */,
+				4DD3348426F0432C0028D3CC /* Headers */,
+				4DD3348526F0432C0028D3CC /* Sources */,
+				4DD3348626F0432C0028D3CC /* Frameworks */,
+				4DD3348726F0432C0028D3CC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -122,44 +88,23 @@
 			);
 			name = UIAutoLayoutFramework_OC;
 			productName = UIAutoLayoutFramework_OC;
-			productReference = 4D06B85526E9B019004A1587 /* UIAutoLayoutFramework_OC.framework */;
+			productReference = 4DD3348926F0432C0028D3CC /* UIAutoLayoutFramework_OC.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		4D06B85D26E9B019004A1587 /* UIAutoLayoutFramework_OCTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4D06B86C26E9B019004A1587 /* Build configuration list for PBXNativeTarget "UIAutoLayoutFramework_OCTests" */;
-			buildPhases = (
-				4D06B85A26E9B019004A1587 /* Sources */,
-				4D06B85B26E9B019004A1587 /* Frameworks */,
-				4D06B85C26E9B019004A1587 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4D06B86126E9B019004A1587 /* PBXTargetDependency */,
-			);
-			name = UIAutoLayoutFramework_OCTests;
-			productName = UIAutoLayoutFramework_OCTests;
-			productReference = 4D06B85E26E9B019004A1587 /* UIAutoLayoutFramework_OCTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4D06B84C26E9B018004A1587 /* Project object */ = {
+		4DD3348026F0432C0028D3CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					4D06B85426E9B019004A1587 = {
-						CreatedOnToolsVersion = 12.5.1;
-					};
-					4D06B85D26E9B019004A1587 = {
+					4DD3348826F0432C0028D3CC = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 4D06B84F26E9B018004A1587 /* Build configuration list for PBXProject "UIAutoLayoutFramework_OC" */;
+			buildConfigurationList = 4DD3348326F0432C0028D3CC /* Build configuration list for PBXProject "UIAutoLayoutFramework_OC" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -167,26 +112,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 4D06B84B26E9B018004A1587;
-			productRefGroup = 4D06B85626E9B019004A1587 /* Products */;
+			mainGroup = 4DD3347F26F0432C0028D3CC;
+			productRefGroup = 4DD3348A26F0432C0028D3CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D06B85426E9B019004A1587 /* UIAutoLayoutFramework_OC */,
-				4D06B85D26E9B019004A1587 /* UIAutoLayoutFramework_OCTests */,
+				4DD3348826F0432C0028D3CC /* UIAutoLayoutFramework_OC */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4D06B85326E9B019004A1587 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D06B85C26E9B019004A1587 /* Resources */ = {
+		4DD3348726F0432C0028D3CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -196,34 +133,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D06B85126E9B019004A1587 /* Sources */ = {
+		4DD3348526F0432C0028D3CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D06B87226E9B0D7004A1587 /* UIAutoLayout.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D06B85A26E9B019004A1587 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D06B86426E9B019004A1587 /* UIAutoLayoutFramework_OCTests.m in Sources */,
+				4DD3349726F0435E0028D3CC /* UIAutoLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		4D06B86126E9B019004A1587 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4D06B85426E9B019004A1587 /* UIAutoLayoutFramework_OC */;
-			targetProxy = 4D06B86026E9B019004A1587 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		4D06B86726E9B019004A1587 /* Debug */ = {
+		4DD3348F26F0432C0028D3CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		4D06B86826E9B019004A1587 /* Release */ = {
+		4DD3349026F0432C0028D3CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -341,7 +262,7 @@
 			};
 			name = Release;
 		};
-		4D06B86A26E9B019004A1587 /* Debug */ = {
+		4DD3349226F0432C0028D3CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -366,7 +287,7 @@
 			};
 			name = Debug;
 		};
-		4D06B86B26E9B019004A1587 /* Release */ = {
+		4DD3349326F0432C0028D3CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -388,74 +309,31 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		4D06B86D26E9B019004A1587 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XK44G7QLT3;
-				INFOPLIST_FILE = UIAutoLayoutFramework_OCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JNL.UIAutoLayoutFramework-OCTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4D06B86E26E9B019004A1587 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XK44G7QLT3;
-				INFOPLIST_FILE = UIAutoLayoutFramework_OCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JNL.UIAutoLayoutFramework-OCTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D06B84F26E9B018004A1587 /* Build configuration list for PBXProject "UIAutoLayoutFramework_OC" */ = {
+		4DD3348326F0432C0028D3CC /* Build configuration list for PBXProject "UIAutoLayoutFramework_OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D06B86726E9B019004A1587 /* Debug */,
-				4D06B86826E9B019004A1587 /* Release */,
+				4DD3348F26F0432C0028D3CC /* Debug */,
+				4DD3349026F0432C0028D3CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D06B86926E9B019004A1587 /* Build configuration list for PBXNativeTarget "UIAutoLayoutFramework_OC" */ = {
+		4DD3349126F0432C0028D3CC /* Build configuration list for PBXNativeTarget "UIAutoLayoutFramework_OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D06B86A26E9B019004A1587 /* Debug */,
-				4D06B86B26E9B019004A1587 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4D06B86C26E9B019004A1587 /* Build configuration list for PBXNativeTarget "UIAutoLayoutFramework_OCTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D06B86D26E9B019004A1587 /* Debug */,
-				4D06B86E26E9B019004A1587 /* Release */,
+				4DD3349226F0432C0028D3CC /* Debug */,
+				4DD3349326F0432C0028D3CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4D06B84C26E9B018004A1587 /* Project object */;
+	rootObject = 4DD3348026F0432C0028D3CC /* Project object */;
 }
