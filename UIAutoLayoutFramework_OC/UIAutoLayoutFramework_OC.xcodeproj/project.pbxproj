@@ -10,6 +10,7 @@
 		4DD3348E26F0432C0028D3CC /* UIAutoLayoutFramework_OC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD3348C26F0432C0028D3CC /* UIAutoLayoutFramework_OC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DD3349626F0435E0028D3CC /* UIAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD3349426F0435E0028D3CC /* UIAutoLayout.h */; };
 		4DD3349726F0435E0028D3CC /* UIAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD3349526F0435E0028D3CC /* UIAutoLayout.m */; };
+		4DD334DA26F1C24D0028D3CC /* UIAutoLayoutParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD334D926F1C24D0028D3CC /* UIAutoLayoutParams.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		4DD3348D26F0432C0028D3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DD3349426F0435E0028D3CC /* UIAutoLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAutoLayout.h; sourceTree = "<group>"; };
 		4DD3349526F0435E0028D3CC /* UIAutoLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAutoLayout.m; sourceTree = "<group>"; };
+		4DD334D926F1C24D0028D3CC /* UIAutoLayoutParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAutoLayoutParams.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				4DD3348C26F0432C0028D3CC /* UIAutoLayoutFramework_OC.h */,
+				4DD334D926F1C24D0028D3CC /* UIAutoLayoutParams.h */,
 				4DD3349426F0435E0028D3CC /* UIAutoLayout.h */,
 				4DD3349526F0435E0028D3CC /* UIAutoLayout.m */,
 				4DD3348D26F0432C0028D3CC /* Info.plist */,
@@ -66,6 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DD3348E26F0432C0028D3CC /* UIAutoLayoutFramework_OC.h in Headers */,
+				4DD334DA26F1C24D0028D3CC /* UIAutoLayoutParams.h in Headers */,
 				4DD3349626F0435E0028D3CC /* UIAutoLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +283,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JNL.UIAutoLayoutFramework-OC";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -304,6 +309,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JNL.UIAutoLayoutFramework-OC";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

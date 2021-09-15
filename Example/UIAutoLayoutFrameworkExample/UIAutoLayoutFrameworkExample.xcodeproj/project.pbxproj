@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -92,7 +92,6 @@
 				7085297C2B04484306742264 /* Pods-UIAutoLayoutFrameworkExample.debug.xcconfig */,
 				FEE4822C0FC334771207DED0 /* Pods-UIAutoLayoutFrameworkExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -521,7 +520,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JNL.UIAutoLayoutFrameworkExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -541,7 +540,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JNL.UIAutoLayoutFrameworkExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

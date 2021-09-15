@@ -12,6 +12,7 @@
 
 #import "UIAutoLayout.h"
 #import "UIAutoLayoutFramework_OC.h"
+#import "UIAutoLayoutParams.h"
 
 FOUNDATION_EXPORT double UIAutoLayoutFramework_OCVersionNumber;
 FOUNDATION_EXPORT const unsigned char UIAutoLayoutFramework_OCVersionString[];

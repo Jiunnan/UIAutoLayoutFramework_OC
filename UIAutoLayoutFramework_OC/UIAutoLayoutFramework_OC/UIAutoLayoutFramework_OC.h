@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "UIAutoLayout.h"
+#import "UIAutoLayoutParams.h"
 
 //! Project version number for UIAutoLayoutFramework_OC.
 FOUNDATION_EXPORT double UIAutoLayoutFramework_OCVersionNumber;

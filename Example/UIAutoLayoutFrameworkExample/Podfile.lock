@@ -1,5 +1,5 @@
 PODS:
-  - UIAutoLayoutFramework_OC (1.0.0)
+  - UIAutoLayoutFramework_OC (1.1.3)
 
 DEPENDENCIES:
   - UIAutoLayoutFramework_OC (from `../../UIAutoLayoutFramework_OC/`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../../UIAutoLayoutFramework_OC/"
 
 SPEC CHECKSUMS:
-  UIAutoLayoutFramework_OC: 32f7cc6804fc38824e6c21042577ecf8de25d030
+  UIAutoLayoutFramework_OC: 84b026e5fee91380413a0b35b3bd82aceacecfe6
 
-PODFILE CHECKSUM: c01265a77a948231a7680348553bb794ae1de49a
+PODFILE CHECKSUM: f2af8e9e13f5ebeab8e4dbe5d5f71c30672217b8
 
 COCOAPODS: 1.8.4

@@ -17,10 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIAutoLayout *testAL = [[UIAutoLayout alloc]init];
-    [testAL printLog];
+    NSString *autoLayoutVersion = UIAutoLayout.callVersion;
+    NSLog(@"Framework version: %@", autoLayoutVersion);
+    
+    NSLog(@"Screen width: %f  height: %f", kscreenWidth, kscreenHeight);
+    
+    [self.view adaptScreenWidthType:BSAdaptScreenWidthTypeAll exceptViews:nil];
     // Do any additional setup after loading the view.
 }
 
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    NSLog(@"testLbl textSize: %f", self.testLbl.font.pointSize);
+}
 
 @end
